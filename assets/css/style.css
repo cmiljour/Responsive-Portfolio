@@ -166,11 +166,6 @@ footer {
 }
 
 
-/*#city {
-	background-position: 50% 50%;
-	background-clip: padding-box;
-}*/
-
 #photos {
 	margin-top: 30px;
 	margin-left: 10px;
@@ -214,8 +209,51 @@ footer {
 
 @media screen and (max-width: 640px) {
 
-	body {
-		background-color: lightgreen;
-	}
+header {
+	height:72px;
+	padding-left: 20px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 150%;
+}
+
+#navigation {
+	
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 42px;
+	margin-top: 40px;
+	color: #b2afac;
+	font-weight: bold;
+	text-align: center;
+	font-size: 100%;
+
+
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+#navigation ul li
+{
+	list-style-type: none;
+	display:inline;
+	
+}
+
+#navigation li:not(:first-child):before {
+	content: " | ";
+	margin-left: 12px;
+	margin-right: 12px;
+
+}
+
+#navigation li a {
+	text-decoration: none;
+	color:#b2afac;
+}
 
 }
