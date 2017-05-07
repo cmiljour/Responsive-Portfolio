@@ -6,8 +6,9 @@ body {
 
 header {
 	width:150px;
-	height:72px;
+	height:50px;
 	padding-left: 20px;
+	padding-top: 22px;
 	margin-left: 140px;
 	margin-top: 10px;
 	background-color: #4aaaa5;
@@ -60,7 +61,7 @@ header {
 
 section {
 	clear:both;
-	height: 530px;
+	height: 545px;
 	background-image: url("../images/ep_naturalblack.png");
 }
 
@@ -223,7 +224,8 @@ body {
 header {
 
 	width:640px;
-	height:72px;
+	height:45px;
+	padding-top: 25px;
 	padding-left: 0;
 	margin-left: 0;
 	margin-top: 0;
@@ -234,33 +236,48 @@ header {
 
 section {
 	clear:both;
-	height: 665px;
+	height: 700px;
 	background-image: url("../images/ep_naturalblack.png");
 }
 
 #navigation {
 	
 	float: none;
-	height: 30px;
+	height: 32px;
+	padding-top: 18px;
 	margin-left: 0;
 	margin-top: 0;
 	font-size: 100%;
-	text-align: left;
+	text-align: center;
 	border-bottom: 1px solid lightgray;
 
 }
 
+#navigation ul li {
+	list-style-type: none;
+	display:inline;
+
+}
+
+#navigation li:not(:first-child):before {
+	content: " | ";
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
 article {
 	float:none;
 	height: 435px;
-	width: 620px;
+	width: 580px;
 	margin-top: 0px;
 	margin-right: 5px;
 	margin-left: 10px;
 	margin-bottom: 20px;
-	padding-top: 0px;
-	padding-left: 0;
-	padding-right: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: #4aaaa5;
 	font-weight: bolder;
 	font-size: 125%;
@@ -271,8 +288,7 @@ article {
 
 #catImage {
 	float: none; 
-	height: 185px;
-	width: 500px;
+	background-image: url("./assets/images/cat2.jpg");
 	/*margin: 4px 10px 0px 0px;*/
 }
 
@@ -291,11 +307,11 @@ article {
 }
 aside {
 	float: none;
-	width: 620px;
+	width: 610px;
 	height: 150px;
-	margin-top: 25px;
+	margin-top: 35px;
 	padding-top: 15px;
-	padding-left: 0;
+	padding-left: 10px;
 	padding-right: 0;
 	margin-left: 10px;
 	margin-right: 5px;
@@ -308,7 +324,8 @@ aside {
 
 #cText {
 	height: 20px;
-	width: 190px;
+	width: 590px;
+	
 	margin-left: 5px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 125%;
