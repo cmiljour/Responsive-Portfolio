@@ -83,6 +83,51 @@ article {
 	border-bottom-color: 2px solid gray;
 }
 
+#portArticle {
+	float:left;
+	height: 710px;
+	width: 450px;
+	margin-top: 35px;
+	margin-left: 140px;
+	margin-bottom: 40px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right:20px;
+	color: #4aaaa5;
+	font-weight: bolder;
+	font-size: 125%;
+	font-family: serif;
+	background-color: #fff;
+	border-bottom-color: 2px solid gray;
+
+}
+
+#portAside {
+	float: left;
+	width: 205px;
+	height: 150px;
+	margin-top: 35px;
+	padding-top: 15px;
+	padding-left:20px;
+	padding-right: 20px;
+	margin-left: 35px;
+	margin-right: 40px;
+	color: #4aaaa5;
+	font-weight: bolder;
+	font-size: 115%;
+	font-family: serif;
+	background-color: #fff;
+}
+
+#portSection {
+	clear:both;
+	height: 775px;
+	background-image: url("../images/ep_naturalblack.png");
+	border-top: 10px solid black;
+	border-bottom: 1px solid black;
+
+}
+
 #aMe {
 	height:40px;
 	font-size: 150%;
@@ -236,7 +281,7 @@ footer {
 
 body {
 	width:640px;
-
+	height: 960px;
 }
 
 
@@ -324,7 +369,8 @@ article {
 	line-height: 175%;
 	word-wrap: normal;
 }
-aside {
+
+#aside {
 	float: none;
 	width: 610px;
 	height: 150px;
@@ -344,7 +390,6 @@ aside {
 #cText {
 	height: 15px;
 	width: 580px;
-	
 	margin-left: 5px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 125%;
@@ -354,7 +399,7 @@ aside {
 }
 
 #contactsection {
-	
+
 	height:750px;
 }
 
@@ -362,7 +407,85 @@ aside {
 	height:475px;
 }
 
+#photos {
+	margin-top: 30px;
+	margin-left: 10px;
+	position:static;
+}
 
+#photos a {
+	display: block;
+}
 
+#photos img {
+	position: static;
+	float: none;
+	margin-bottom: 40px;
+	
+}
 
+#photos p {
+	color: #ffffff;
+	position: absolute;
+	transform: translate(0%, -225%);
+	color: #fff;
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 200px;
+	height: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#portSection {
+
+	height: 1500px; 
+}
+
+#portArticle {
+	float:none;
+	height: 1200px;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right:20px;
+	color: #4aaaa5;
+	font-weight: bolder;
+	font-size: 125%;
+	font-family: serif;
+	background-color: #fff;
+	border-bottom-color: 1px solid gray;
+}
+#portAside {
+	float: none;
+	width: 490px;
+	height: 150px;
+	margin-top: 35px;
+	padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 0;
+	margin-left: 50px;
+	margin-right: 5px;
+	color: #4aaaa5;
+	font-weight: bolder;
+	font-size: 115%;
+	font-family: serif;
+	background-color: #fff;
+
+}
+
+#portcText {
+
+	height: 15px;
+	width: 450px;
+	margin-left: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 125%;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #bbb;
+	
+}
 }
