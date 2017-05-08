@@ -156,9 +156,28 @@ footer {
 
 }
 
+.box2 {
+	border:1px solid #dddddd;
+	color: #777777;
+	padding:8px 0px 8px 8px;
+	margin-bottom: 10px;
+	font-size: 65%;
+	height: 150px;
+}
+
+#contactsection {
+
+	height:630px;
+}
+
+#contact {
+
+	height:500px;
+}
 
 .cFormHeader {
 	color: #777777;
+	margin-top: 20px;
 	margin-bottom: 5px;
 }
 
@@ -323,8 +342,8 @@ aside {
 }
 
 #cText {
-	height: 20px;
-	width: 590px;
+	height: 15px;
+	width: 580px;
 	
 	margin-left: 5px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -333,6 +352,16 @@ aside {
 	border-bottom: 2px solid #bbb;
 	
 }
+
+#contactsection {
+	
+	height:750px;
+}
+
+#contact {
+	height:475px;
+}
+
 
 
 
