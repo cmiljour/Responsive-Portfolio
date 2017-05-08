@@ -173,6 +173,7 @@ aside {
 	border-bottom: 2px solid #bbb;
 	
 }
+
 footer {
 	clear: both;
 	text-align: center;
@@ -274,7 +275,76 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+body {
+	width:768px;
+}
+
+header {
+	margin-left: 10px;
+}
+
 	
+#navigation ul
+{
+
+
+	margin-left: -40px;
+
+}
+
+
+
+section {
+	height: 750px;
+
+}
+
+article {
+	height: 440px;
+}
+aside {
+	margin-top: -20px;
+	margin-left: 140px;
+	width: 450px;
+	
+}
+
+#cText {
+	width: 450px;
+}
+
+#contactsection {
+
+	height:750px;
+
+}
+
+
+#contact {
+	margin-top: 20px;
+	height:500px;
+}
+
+#portAside {
+
+	margin-top: 35px;
+	width:450px;
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-left:20px;
+	padding-right: 20px;
+	margin-left: 140px;
+	margin-right: 40px;
+	
+}
+
+#portSection {
+	clear:both;
+	height: 1100px;
+	background-image: url("../images/ep_naturalblack.png");
+	border-top: 10px solid black;
+	border-bottom: 1px solid black;
+
 }
 
 @media screen and (max-width: 640px) {
@@ -485,7 +555,7 @@ article {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 125%;
 	padding-bottom: 20px;
-	border-bottom: 2px solid #bbb;
-	
+	border-bottom: 2px solid #bbb;	
+}
 }
 }
