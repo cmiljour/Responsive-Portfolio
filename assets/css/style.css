@@ -146,6 +146,7 @@ article {
 	line-height: 175%;
 	word-wrap: break-word;
 }
+
 aside {
 	float: left;
 	width: 205px;
@@ -440,7 +441,7 @@ article {
 	word-wrap: normal;
 }
 
-#aside {
+aside {
 	float: none;
 	width: 610px;
 	height: 150px;
@@ -455,6 +456,7 @@ article {
 	font-size: 115%;
 	font-family: serif;
 	background-color: #fff;
+
 }
 
 #cText {
