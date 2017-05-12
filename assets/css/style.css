@@ -119,6 +119,17 @@ article {
 	background-color: #fff;
 }
 
+#portcText {
+	height: 20px;
+	width: 190px;
+	margin-left: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 125%;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #bbb;
+	
+}
+
 #portSection {
 	clear:both;
 	height: 775px;
