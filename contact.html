@@ -1,46 +1,66 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<title>Contact</title>
-	  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Contact | Cory Miljour</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 
-<header>
-	<p> Cory Miljour</p>
-</header>
-<nav id="navigation">
-    <ul>
-        <li><a href="./index.html">About</a></li>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-    </ul>
-</nav>
-
-<section id="contactsection">
-<br>
-	<article id="contact">
-    <div id="aMe">Contact</div>
-	<div class="cFormHeader">Name</div>
-	<div class="box1">John Smith</div>
-	<div class="cFormHeader">Email</div>
-	<div class="box1">example@gmail.com</div>
-	<div class="cFormHeader">Message</div>
-	<div class="box2"></div>
-	<div id="submitButton">Submit</div>
-	</article>
-	<aside>
-    <div id="cText">Connect with Me</div>
-		<div id="cImg">
-    <img class="images" alt="linkedin" src="./assets/images/linkedin.png">
-    <img class="images" alt="Facebook" src="./assets/images/facebook_circle.png">
-    <img class="images" alt="Google" src="./assets/images/google_circle.svg">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Cory Miljour</a>
+      <nav >
+	       <a href="./index.html">About</a>
+	       <a href="./portfolio.html">Portfolio</a> 
+	       <a href="./contact.html">Contact</a> 
+      </nav>
     </div>
-	</aside>
-</section>
+  </header>
 
-<footer>@Copyright 2017 Cory Miljour</footer>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="./assets/images/linkedin.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="./assets/images/facebook_circle.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="./assets/images/google_circle.svg" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
